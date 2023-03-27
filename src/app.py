@@ -24,8 +24,8 @@ def multiply(a:int, b:int):
 @app.route('/rest/<int:a>/<int:b>')
 def rest(a:int, b:int):
 	result = a-b
-	if result > 0
+	if result > 0:
 		return f"la resta es: {str(result)}"
-	else 
+	else :
 		return  "la Resta no se puede realizar"
 
