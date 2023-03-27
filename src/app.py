@@ -27,5 +27,5 @@ def rest(a:int, b:int):
 	if result > 0:
 		return f"la resta es: {str(result)}"
 	else :
-		return  "la Resta no se puede realizar"
+		return  "la Resta no se puede realizar ya que el segundo número es mayor al primero"
 
